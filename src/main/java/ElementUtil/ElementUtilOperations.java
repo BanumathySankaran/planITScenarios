@@ -161,6 +161,7 @@ else if (browser.equalsIgnoreCase("IE")) {
 	
 	public boolean checkIfElementIsDisplayed(WebElement ele) {
 		implicitWait(10);
+		logger.info("Verify if Element is Displayed : " + ele.getText());
 		return ele.isDisplayed();		
 	}
 	
@@ -237,9 +238,9 @@ else if (browser.equalsIgnoreCase("IE")) {
 		for(WebElement singleEle:ele)
 			{
 			Assert.assertTrue(ele.size()>0);
-			logger.info("Element is displayed" +singleEle.getText());
+			logger.info("Element is displayed: " +singleEle.getText());
 			}
-		Thread.sleep(4000);
+		implicitWait(10);
 		return ele.size();
 	}
 	

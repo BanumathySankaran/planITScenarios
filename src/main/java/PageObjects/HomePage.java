@@ -29,7 +29,7 @@ public class HomePage extends ElementUtilOperations{
 	}
 	
 	public void checkIfOnHomePage() throws InterruptedException {
-		implicitWait(5);
+		implicitWait(10);
 		this.assertIfElementIsDisplayed(homePpageTitle);
 	}
 	

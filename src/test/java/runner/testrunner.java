@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 features = "src/test/java/Feature"
-,glue= {"seleniumgluecode"},tags={"@P12321,@P12322,@P12323,@P12324"}
+,glue= {"seleniumgluecode"},tags={"@P12324"}
 )
 
 public class testrunner {

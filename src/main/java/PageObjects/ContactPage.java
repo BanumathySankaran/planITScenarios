@@ -96,7 +96,7 @@ public class ContactPage extends ElementUtilOperations{
 	
 	public void checkIfSuccessfullySubmitted() throws InterruptedException {
 		logger.info("check if the contact details are successfully submitted");
-		implicitWait(18);
+		implicitWait(25);
 		Assert.assertTrue(checkIfElemIsDisplayed(successSub));
 		driver.quit();
 	}
@@ -106,10 +106,10 @@ public class ContactPage extends ElementUtilOperations{
 		int int_random = ThreadLocalRandom.current().nextInt();
 		foreNameField.sendKeys(String.valueOf(int_random));
 		clickByJse(emailField, "email Field");
-		implicitWait(4);	
+		implicitWait(10);	
 		String incorrEmail = generateRandom(5);
 		emailField.sendKeys(incorrEmail);
-		implicitWait(6);
+		implicitWait(10);
 		clickOnElement(clickOutSide);
 	}
 	
