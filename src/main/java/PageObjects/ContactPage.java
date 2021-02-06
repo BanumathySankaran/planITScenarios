@@ -97,6 +97,7 @@ public class ContactPage extends ElementUtilOperations{
 	public void checkIfSuccessfullySubmitted() throws InterruptedException {
 		logger.info("check if the contact details are successfully submitted");
 		implicitWait(25);
+		Thread.sleep(7000);
 		Assert.assertTrue(checkIfElemIsDisplayed(successSub));
 		driver.quit();
 	}
