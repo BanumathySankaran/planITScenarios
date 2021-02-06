@@ -52,8 +52,6 @@ public class ContactPage extends ElementUtilOperations{
 	@FindBy(how = How.XPATH,using = "//*[contains(text(),'Only provide your')]")
 	WebElement clickOutSide;
 	
-	@FindBy(how = How.XPATH,using = "//*[contains(text(),'Message is required')]")
-	WebElement errorMsgInMsgBox;
 	
 	public ContactPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -119,7 +117,6 @@ public class ContactPage extends ElementUtilOperations{
 		implicitWait(6);
 		Assert.assertTrue(this.checkIfElementIsDisplayed(errorMsgForeName));
 		Assert.assertTrue(this.checkIfElementIsDisplayed(errorMsgValidEmail));
-		Assert.assertTrue(this.checkIfElementIsDisplayed(errorMsgInMsgBox));
 		logger.info("error messages are populated");
 		driver.quit();
 	}
