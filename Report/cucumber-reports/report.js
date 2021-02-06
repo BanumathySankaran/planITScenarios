@@ -129,25 +129,56 @@ formatter.step({
   "name": "the items selected are displayed in the cart",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "PlanIT_HomePageVerification.i_am_on_Home_Page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6526793600,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "shops",
+      "offset": 15
+    }
+  ],
+  "location": "PlanIT_HomePageVerification.i_navigate_to_respective_page(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 211039600,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 20
+    },
+    {
+      "val": "Funny Cow",
+      "offset": 26
+    }
+  ],
+  "location": "PlanITScenarios.click_on_buy_button_on(int,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 738165700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PlanITScenarios.click_on_the_cart_menu()"
+});
+formatter.result({
+  "duration": 222564000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PlanITScenarios.the_items_selected_are_displayed_in_the_cart()"
+});
+formatter.result({
+  "duration": 8805446800,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
@@ -192,25 +223,56 @@ formatter.step({
   "name": "the items selected are displayed in the cart",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "PlanIT_HomePageVerification.i_am_on_Home_Page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 5949398700,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "shops",
+      "offset": 15
+    }
+  ],
+  "location": "PlanIT_HomePageVerification.i_navigate_to_respective_page(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 189991400,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 20
+    },
+    {
+      "val": "Fluffy Bunny",
+      "offset": 26
+    }
+  ],
+  "location": "PlanITScenarios.click_on_buy_button_on(int,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 408563100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PlanITScenarios.click_on_the_cart_menu()"
+});
+formatter.result({
+  "duration": 232771600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PlanITScenarios.the_items_selected_are_displayed_in_the_cart()"
+});
+formatter.result({
+  "duration": 8876941500,
+  "status": "passed"
 });
 formatter.uri("PlanItContactPageScenarios.feature");
 formatter.feature({
@@ -237,13 +299,25 @@ formatter.step({
   "name": "I navigate to \"contact\" page",
   "keyword": "When "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "PlanIT_HomePageVerification.i_am_on_Home_Page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 5792859800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "contact",
+      "offset": 15
+    }
+  ],
+  "location": "PlanIT_HomePageVerification.i_navigate_to_respective_page(String)"
+});
+formatter.result({
+  "duration": 195124300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 9,
@@ -279,21 +353,33 @@ formatter.step({
   "name": "resolve the errors",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "PlanITScenarios.click_on_submit_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 205534100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "PlanITScenarios.validate_the_errors()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 148404700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PlanITScenarios.populate_Mandatory_fields()"
+});
+formatter.result({
+  "duration": 68295900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PlanITScenarios.resolve_the_errors()"
+});
+formatter.result({
+  "duration": 12735031500,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -312,13 +398,25 @@ formatter.step({
   "name": "I navigate to \"contact\" page",
   "keyword": "When "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "PlanIT_HomePageVerification.i_am_on_Home_Page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 5574542100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "contact",
+      "offset": 15
+    }
+  ],
+  "location": "PlanIT_HomePageVerification.i_navigate_to_respective_page(String)"
+});
+formatter.result({
+  "duration": 180063800,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 17,
@@ -349,73 +447,20 @@ formatter.step({
   "name": "a valid message successful submission message is displayed",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "PlanITScenarios.fill_up_all_the_mandatory_fields_with_the_correct_details()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 242545300,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "PlanITScenarios.submit_the_details()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 50808800,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.background({
-  "line": 4,
-  "name": "User is Logged In",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 5,
-  "name": "I am on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I navigate to \"contact\" page",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 24,
-  "name": "Action 2 - check the mandatory fields with invalid data",
-  "description": "",
-  "id": "plan-it-application-scenarios;action-2---check-the-mandatory-fields-with-invalid-data",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 23,
-      "name": "@P12323"
-    }
-  ]
-});
-formatter.step({
-  "line": 25,
-  "name": "fill up the contacts page with invalid data",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "error messages should be seen",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
+formatter.match({
+  "location": "PlanITScenarios.a_valid_message_successful_submission_message_is_displayed()"
 });
