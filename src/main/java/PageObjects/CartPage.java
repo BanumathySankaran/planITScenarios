@@ -24,7 +24,8 @@ public class CartPage extends ElementUtilOperations {
 	@FindBy(how = How.XPATH, using ="(//*[contains(@class,'cart-item')]/child::*)[5]/child::*[@value]")
 	WebElement quantityOfItem;
 	
-	public void checkIfItemsDisplayedInCart() {
+	public void checkIfItemsDisplayedInCart() throws InterruptedException {
+		Thread.sleep(8000);
 		logger.info("checking if item is in cart");
 		Assert.assertTrue(this.checkIfElementIsDisplayed(itemInCart));
 		String textInItem = fetchTextValFromElement(itemInCart);
